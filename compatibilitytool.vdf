@@ -2,11 +2,11 @@
 {
   "compat_tools"
   {
-    "Steam-Play-None" // Internal name of this tool
+    "Steam-Play-Linux" // Internal name of this tool
     {
       "install_path" "."
-      "display_name" "Steam-Play-None"
-      "from_oslist"  "linux"
+      "display_name" "Linux"
+      "from_oslist"  "windows"
       "to_oslist"    "linux"
     }
   }
