@@ -1,41 +1,20 @@
-Steam-Play-None
+Steam-Play-Linux
 ---
-Run Linux games as is, even if Valve recommends Proton for a game.
+Run Windows games which don't officially support Linux but ship Linux binaries regardless.
 
 # Installation
 
-
-## Install using ProtonUp-Qt
-
-1. Download [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) (You can find it in your app store via Flathub or click the link to download an AppImage)
-2. Enable advanced mode (press About > Enable advanced mode)
-3. Press `Add version` in the main dialog
-4. Select `Steam-Play-None` under `Compatibility tool` and press `Install`
-5. Set the compatibility-tool for the game in your library to `Steam-Play-None`
-
 ## Install manually
 
-- Download this repository as an archive file: [Download](https://github.com/Scrumplex/Steam-Play-None/archive/refs/heads/main.tar.gz)
+- Download this repository as an archive file: [Download](https://github.com/SnoutBug/steam-play-linux/archive/refs/heads/main.tar.gz)
 - Create the directory `~/.steam/steam/compatibilitytools.d` if it doesn't exist yet
 - Extract it to `~/.steam/steam/compatibilitytools.d/`
-- Set the compatibility-tool for the game in your library to "None"
+- Set the compatibility-tool for the game in your library to "Linux"
 
 # Why
 
-Valve might decide, that your favorite game runs *better* with Proton, than using the native Linux client.
-If you don't want to use Proton, as recommended by Valve on your Steam Deck, you only have the choice of running the game using `Steam Linux Runtime`.
-But you might have issues with that, so this compatibility-tool allows you to run your Linux-native games as is again.
-
-# Steam-Play-None Verified
-
-| Game                     | Valve's recommendation         | Proton                | Steam Linux Runtime              | Steam-Play-None    |
-| ------------------------ | ------------------------------ | --------------------- | -------------------------------- | ------------------ |
-| [CrossCode][p-crosscode] | Proton 7.0-3 (`proton-stable`) | :x:, heavy stuttering | :x:, doesn't launch<sup>1</sup> | :heavy_check_mark: |
-
-
-<sup>1</sup>: It can be made to launch, but will not have working controller input. see https://github.com/ValveSoftware/Proton/issues/2818#issuecomment-1192329628
+Some developers might decide that their game does not sufficiently good enough on Linux and decide to not make a Linux version public.
+However they still want to provide some more tech-savvy people access for testing purposes.
 
 # License
 This work is licensed under CC0. See [LICENSE](LICENSE):
-
-[p-crosscode]: https://www.protondb.com/app/368340/
