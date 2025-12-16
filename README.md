@@ -11,6 +11,10 @@ Run Windows games which don't officially support Linux but ship Linux binaries r
 - Extract it to `~/.steam/steam/compatibilitytools.d/`
 - Set the compatibility-tool for the game in your library to "Linux"
 
+# Usage
+
+- In steam launch options, set the path to your Linux binary
+
 # Why
 
 Some developers might decide that their game does not sufficiently good enough on Linux and decide to not make a Linux version public.
