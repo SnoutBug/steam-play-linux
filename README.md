@@ -17,8 +17,11 @@ Run Windows games which don't officially support Linux but ship Linux binaries r
 
 # Why
 
-Some developers might decide that their game does not sufficiently good enough on Linux and decide to not make a Linux version public.
-However they still want to provide some more tech-savvy people access for testing purposes.
+Some developers might decide that their game does not run sufficiently good on Linux and will in turn not make a Linux version public.
+However they still want to provide some more tech-savvy people access for testing purposes packaged with the windows version.
+
+Steam play linux allows you to launch native linux games packaged as a windows game by reading the launch options.
+This should also enable all steam functions, such as cloud saves, achievements, time tracking and rich presence, should the game support that.
 
 # License
 This work is licensed under CC0. See [LICENSE](LICENSE):
